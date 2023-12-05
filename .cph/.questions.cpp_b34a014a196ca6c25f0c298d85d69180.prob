@@ -1,0 +1,1 @@
+{"name":"Local: questions","url":"/Users/aaryaveerbhardwaj/Desktop/cpp/questions.cpp","tests":[{"id":1701284014840,"input":"2\n3 4 5 2 3\nSNW\n4 5 5 2 2 \nSESE","output":"1 2\n4 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/aaryaveerbhardwaj/Desktop/cpp/questions.cpp","group":"local","local":true}
