@@ -1,0 +1,1 @@
+{"name":"Local: sumDig","url":"/Users/aaryaveerbhardwaj/Desktop/cpp/sumDig.cpp","tests":[{"id":1702822901968,"input":"3\n12\n1561\n53453451234567876545676540909890989890987987567654567654567656765678765678765","output":"3\n13\n443"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/aaryaveerbhardwaj/Desktop/cpp/sumDig.cpp","group":"local","local":true}
