@@ -1,0 +1,1 @@
+{"name":"Local: dice","url":"/Users/aaryaveerbhardwaj/Desktop/cpp/dice.cpp","tests":[{"id":1703050159536,"input":"3\n1 2 3 4 5 6\nNE\n2 4 5 3 1 7\nSWN\n3 4 5 6 7 8\nSSEN","output":"4\n2\n7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/aaryaveerbhardwaj/Desktop/cpp/dice.cpp","group":"local","local":true}

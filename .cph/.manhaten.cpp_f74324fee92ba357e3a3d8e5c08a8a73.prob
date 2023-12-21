@@ -1,0 +1,1 @@
+{"name":"Local: manhaten","url":"/Users/aaryaveerbhardwaj/Desktop/cpp/manhaten.cpp","tests":[{"id":1703094489343,"input":"3\n0 0 2 2\n1 2 5 5\n4 1 -8 2","output":"2.8284271 4.0000000\n5.0000000 7.0000000\n12.0415946 13.0000000"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/aaryaveerbhardwaj/Desktop/cpp/manhaten.cpp","group":"local","local":true}

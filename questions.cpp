@@ -7,10 +7,17 @@ int main()
     int _t;
     cin>>_t;
     while(_t--){
-        long long X1,Y1,X2,Y2,X3,Y3,X4,Y4;
-        cin>>X1>>Y1>>X2>>Y2;
-        cin>>X3>>Y3>>X4>>Y4;
-        
+        // double N;
+        // double M;
+        // cin>>N>>M;
+        // double Z=floor(M);
+        // double Y = (M-Z)*1e6;
+        // double k=10;
+        // while(fmod(Y,k)==0){
+        //     Y=Y/10;
+        // }
+        // cout<<N+Y<<"."<<N+Z<<"\n";
+               
     }
     return 0;
 }
