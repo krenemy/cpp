@@ -1,0 +1,1 @@
+{"name":"Local: tomakeC","url":"/Users/aaryaveerbhardwaj/Desktop/cpp/tomakeC.cpp","tests":[{"id":1703766399522,"input":"2\n6 9 33\n2 8 1","output":"Yes\nNo"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/aaryaveerbhardwaj/Desktop/cpp/tomakeC.cpp","group":"local","local":true}

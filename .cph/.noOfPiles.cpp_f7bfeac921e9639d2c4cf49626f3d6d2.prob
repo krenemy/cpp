@@ -1,0 +1,1 @@
+{"name":"Local: noOfPiles","url":"/Users/aaryaveerbhardwaj/Desktop/cpp/noOfPiles.cpp","tests":[{"id":1703767390061,"input":"2\n5\n2 2 6 8 12\n4\n2 6 3 8","output":"Yes\nNo"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/aaryaveerbhardwaj/Desktop/cpp/noOfPiles.cpp","group":"local","local":true}
