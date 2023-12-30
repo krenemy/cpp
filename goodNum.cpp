@@ -23,9 +23,9 @@ signed main(){
         long long L,R;
         cin>>L>>R;
         L--;R--;
-        // int k=0;
-        // for(int i=L;i<=R;i++){
-        //     if(ppp[i]>=K) k++;
-        // }cout<<k<<endl;
+        int k=0;
+        for(int i=L;i<=R;i++){
+            if(ppp[i]>=K) k++;
+        }cout<<k<<endl;
     }
 }

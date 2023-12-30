@@ -1,0 +1,1 @@
+{"name":"Local: solveEq","url":"/Users/aaryaveerbhardwaj/Desktop/cpp/solveEq.cpp","tests":[{"id":1703782928958,"input":"2\n(1 + 2 / 1) mod 3\n(2 * 3 - 8) mod 5","output":"0\n3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/aaryaveerbhardwaj/Desktop/cpp/solveEq.cpp","group":"local","local":true}
