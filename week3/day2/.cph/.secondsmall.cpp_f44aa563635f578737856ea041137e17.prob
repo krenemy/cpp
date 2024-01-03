@@ -1,0 +1,1 @@
+{"name":"Local: secondsmall","url":"/Users/aaryaveerbhardwaj/Desktop/cpp/week3/day2/secondsmall.cpp","tests":[{"id":1704117142628,"input":"3\n5\n3 4 1 7 7\n5\n1 5 1 2 1\n3\n1 1 1","output":"3\n2\n-1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/aaryaveerbhardwaj/Desktop/cpp/week3/day2/secondsmall.cpp","group":"local","local":true}

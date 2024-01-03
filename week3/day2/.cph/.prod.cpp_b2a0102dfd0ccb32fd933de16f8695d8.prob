@@ -1,0 +1,1 @@
+{"name":"Local: prod","url":"/Users/aaryaveerbhardwaj/Desktop/cpp/week3/day2/prod.cpp","tests":[{"id":1704112323034,"input":"3\n5\n1 5 2 3 4\n4\n9 0 5 3\n3\n2 2 2","output":"120\n0\n8"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/aaryaveerbhardwaj/Desktop/cpp/week3/day2/prod.cpp","group":"local","local":true}
