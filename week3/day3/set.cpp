@@ -11,9 +11,10 @@ signed main(){
     while (_t--) {
         ll q;cin>>q;
         set<ll> s;
+        set<ll> st;
         while(q--){
             ll t,x;cin>>t>>x;
-            if(t==1) s.insert(x);
+            if(t==1) {s.insert(x);st.insert(x+1);}
             else if(t==2){
                 if(s.size()==0) cout<<x<<endl;
                 else{
@@ -24,10 +25,14 @@ signed main(){
                         ll ans=*s.lower_bound(x);
                         if(ans!=x) cout<<x<<endl;
                         else{
-                            for(auto it=s.lower_bound(x);it!=s.end();++it){
-                            if(ans==*it) ans++;
-                            else break;
-                            }cout<<ans<<endl;
+                            // for(auto it=s.lower_bound(x);it!=s.end();++it){
+                            // if(ans==*it) ans++;
+                            // else break;
+                            // }
+                            if(st.find(x+1)!=st.end()){
+                                if(*st.find(x+1)==ans) ans++;
+                            }
+                            cout<<ans+1<<endl;
                         }
                     }
                 }

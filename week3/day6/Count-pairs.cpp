@@ -11,9 +11,8 @@ signed main(){
     while (_t--) {
         ll n,x;
         cin>>n>>x;
-        multimap<int,int> mp;
-        for(ll i=0;i<n;i++){
-            
-        }
+        vector<ll> a(n);
+        for(ll i=0;i<n;i++) cin>>a[i];
+        
     }
 }

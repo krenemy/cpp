@@ -1,0 +1,1 @@
+{"name":"Local: stack","url":"/Users/aaryaveerbhardwaj/Desktop/cpp/week3/day2/stack.cpp","tests":[{"id":1704370380307,"input":"1\n5\nadd 3\nadd 4\nprint\nremove\nprint","output":"4\n3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/aaryaveerbhardwaj/Desktop/cpp/week3/day2/stack.cpp","group":"local","local":true}

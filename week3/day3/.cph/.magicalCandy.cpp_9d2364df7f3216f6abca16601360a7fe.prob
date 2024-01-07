@@ -1,0 +1,1 @@
+{"name":"Local: magicalCandy","url":"/Users/aaryaveerbhardwaj/Desktop/cpp/week3/day3/magicalCandy.cpp","tests":[{"id":1704341790634,"input":"3\n4 2\n4 3 5 1\n1 2\n4\n6 3\n3 2 2 5 1 2","output":"9\n6\n10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/aaryaveerbhardwaj/Desktop/cpp/week3/day3/magicalCandy.cpp","group":"local","local":true}

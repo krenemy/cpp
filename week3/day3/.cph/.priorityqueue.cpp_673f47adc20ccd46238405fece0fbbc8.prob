@@ -1,0 +1,1 @@
+{"name":"Local: priorityqueue","url":"/Users/aaryaveerbhardwaj/Desktop/cpp/week3/day3/priorityqueue.cpp","tests":[{"id":1704527243682,"input":"1\n6\nadd 4\nadd 5\nadd 3\nprint\nremove\nprint","output":"5\n4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/aaryaveerbhardwaj/Desktop/cpp/week3/day3/priorityqueue.cpp","group":"local","local":true}

@@ -2,6 +2,7 @@
 #include <vector>
 #include <math.h>
 #include <queue>
+#include <utility>
 using namespace std;
 typedef long long ll;
 signed main() {
@@ -10,18 +11,19 @@ signed main() {
     ll _t;cin>>_t;
     while (_t--) {
         ll a;cin>>a;
-        queue<ll> q;
+        priority_queue<ll> pq;
         for(ll i=0;i<a;i++) {
             string s;cin>>s;
-            if(s[0]=='a'){
+            if(s=="add"){
                 ll x;cin>>x;
-                q.push(x);
+                pq.push(x);
             }
-            else if(s[0]=='r'){
-                if(q.size()!=0) q.pop();
-            }else if(s[0]=='p'){
-                if(q.size()!=0) cout<<q.front()<<"\n";
-                else cout<<"0"<<"\n";
+            else if(s=="remove"){
+                if(!pq.empty()) pq.pop();
+            }
+            else if(s=="print"){
+                if(!pq.empty()) cout<<pq.top()<<endl;
+                else cout<<"0"<<endl;
             }
         }
     }

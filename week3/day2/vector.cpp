@@ -29,19 +29,20 @@ typedef long long ll;
 signed main(){
     ios_base::sync_with_stdio(0);
     cin.tie(0);cout.tie(0);
-    int _t;cin>>_t;
+    ll _t;cin>>_t;
     while (_t--) {
-        int q;cin>>q;
+        ll q;cin>>q;
         vector<ll> a;
         while(q--){
             string s;
             cin>>s;
             if(s[0]=='a'){ll x;cin>>x;a.push_back(x);}
-            else if(s[0]=='r'){a.pop_back();}
+            else if(s[0]=='r'){if(a.size()!=0) a.pop_back();}
             else if(s[0]=='p'){
                 if(a.size()==0) cout<<"0"<<endl;
                 else{ll x;cin>>x;
-                if(x<a.size()){cout<<a[x]<<"\n";}}
+                if(x<a.size()){cout<<a[x]<<"\n";}
+                else cout<<"0"<<"\n";}
             }
             else if(s[0]=='c') a.clear();
         }

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <math.h>
-#include <queue>
+#include <stack>
 using namespace std;
 typedef long long ll;
 signed main() {
@@ -10,17 +10,17 @@ signed main() {
     ll _t;cin>>_t;
     while (_t--) {
         ll a;cin>>a;
-        queue<ll> q;
+        stack<ll> st;
         for(ll i=0;i<a;i++) {
             string s;cin>>s;
             if(s[0]=='a'){
                 ll x;cin>>x;
-                q.push(x);
+                st.push(x);
             }
             else if(s[0]=='r'){
-                if(q.size()!=0) q.pop();
+                if(st.size()!=0) st.pop();
             }else if(s[0]=='p'){
-                if(q.size()!=0) cout<<q.front()<<"\n";
+                if(st.size()!=0) cout<<st.top()<<"\n";
                 else cout<<"0"<<"\n";
             }
         }

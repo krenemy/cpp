@@ -1,0 +1,1 @@
+{"name":"Local: map","url":"/Users/aaryaveerbhardwaj/Desktop/cpp/week3/day3/map.cpp","tests":[{"id":1704524624396,"input":"1\n5\nadd alice 24\nadd bob 21\nprint alice\nerase alice\nprint alice","output":"24\n0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/aaryaveerbhardwaj/Desktop/cpp/week3/day3/map.cpp","group":"local","local":true}
