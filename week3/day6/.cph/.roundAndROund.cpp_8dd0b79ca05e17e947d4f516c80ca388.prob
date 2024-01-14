@@ -1,0 +1,1 @@
+{"name":"Local: roundAndROund","url":"/Users/aaryaveerbhardwaj/Desktop/cpp/week3/day6/roundAndROund.cpp","tests":[{"id":1704705400675,"input":"3\n3\nWWW\n2\nLW\n4\nWLLW","output":"NO\nYES\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/aaryaveerbhardwaj/Desktop/cpp/week3/day6/roundAndROund.cpp","group":"local","local":true}

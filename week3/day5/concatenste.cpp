@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <math.h>
-#include <stack>
+#include <map>
 #include <utility>
 using namespace std;
 typedef long long ll;
@@ -12,7 +12,11 @@ signed main() {
     cin >> _t;
     while (_t--) {
         ll n;cin>>n;
-        
-        for(ll i=0;i<n;i++) cin>>a[i];
+        map<ll,ll> mp;
+        for(ll i=0;i<n;i++){
+            ll x;cin>>x;
+            mp[x]++;
+        }
+        cout<<mp.size()<<endl;
     }
 }

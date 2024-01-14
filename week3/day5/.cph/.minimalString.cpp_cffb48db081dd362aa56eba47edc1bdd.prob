@@ -1,0 +1,1 @@
+{"name":"Local: minimalString","url":"/Users/aaryaveerbhardwaj/Desktop/cpp/week3/day5/minimalString.cpp","tests":[{"id":1704703153570,"input":"3\nbdab\nsss\ngtddb\n","output":"abdb\nsss\nbddtg"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/aaryaveerbhardwaj/Desktop/cpp/week3/day5/minimalString.cpp","group":"local","local":true}
