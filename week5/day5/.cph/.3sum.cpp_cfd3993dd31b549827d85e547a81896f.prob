@@ -1,0 +1,1 @@
+{"name":"Local: 3sum","url":"/Users/aaryaveerbhardwaj/Desktop/cpp/week5/day5/3sum.cpp","tests":[{"id":1705485329912,"input":"1\n5 3\n1 2 3 4 5","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/aaryaveerbhardwaj/Desktop/cpp/week5/day5/3sum.cpp","group":"local","local":true}

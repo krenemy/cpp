@@ -14,24 +14,6 @@ signed main() {
         ll n;cin>>n;
         ll arr[n];
         for(int i=0;i<n;i++) cin>>arr[i];
-        stack<ll> st;
-        vector<ll> ans;
-        for(ll i=n-1;i>=0;i--){
-            if(!st.empty()){
-                if(st.top()>arr[i]) st.push(arr[i]);
-                else{
-                    while(!st.empty() && st.top()<arr[i]){
-                        cout<<arr[i]<<" "<<st.top()<<"  ";
-                        st.pop();
-                    }
-                    st.push(arr[i]);
-                }
-            }
-            else{
-                st.push(arr[i]);
-            }
-        }cout<<endl;
-
-    
-}
+        
+    }
 }

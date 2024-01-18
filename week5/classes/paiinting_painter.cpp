@@ -2,7 +2,6 @@
 #include <vector> 
 using namespace std;
 typedef long long ll;
-#include <stack>
 int check(int x,int n,int k,vector<ll> arr){
     // int np=0;
     // int npt=0;
